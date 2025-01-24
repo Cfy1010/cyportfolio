@@ -72,7 +72,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/guitargods-min.jpg",
+    img: "../src/assets/modernportfolio.png",
     url: "https://cfy1010.github.io/CyModernPortfolio/",
     github: "https://github.com/Cfy1010/CyModernPortfolio",
     title: "CyModernPortfolio",
@@ -80,10 +80,18 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/guitargods-min.jpg",
+    img: "../src/assets/formvalidator-min.png",
     url: "https://cfy1010.github.io/CyFormValidator/",
     github: "https://github.com/Cfy1010/CyFormValidator",
     title: "Little Form Validator in HTML5 CSS3 & JS",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    img: "../src/assets/cyaccessform.png",
+    url: "https://cfy1010.github.io/CyAccessForm/",
+    github: "https://github.com/Cfy1010/CyAccessForm",
+    title: "CyAccessForm",
+    text: "Exemples d'accessibilité en HTML.",
   },
 ];
