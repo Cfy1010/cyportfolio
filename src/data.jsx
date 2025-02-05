@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -93,5 +93,21 @@ export const projects = [
     github: "https://github.com/Cfy1010/CyAccessForm",
     title: "CyAccessForm",
     text: "Exemples d'accessibilité en HTML.",
+  },
+  {
+    id: nanoid(),
+    img: "../src/assets/todolist_in_react.png",
+    url: "https://cfy1010.github.io/todolist_in_react/",
+    github: "https://github.com/Cfy1010/todolist_in_react",
+    title: "todolist_in_react",
+    text: "",
+  },
+  {
+    id: nanoid(),
+    img: "../src/assets/todolist-vanillajs-min.png",
+    url: "https://cfy1010.github.io/todolist/",
+    github: "https://github.com/Cfy1010/todolist",
+    title: "My TodoList",
+    text: "Petite TodoListe en Vanilla JS.",
   },
 ];
