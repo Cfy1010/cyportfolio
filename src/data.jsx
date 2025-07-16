@@ -1,5 +1,22 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import {
+  FaAccessibleIcon,
+  FaAtlassian,
+  FaChartBar,
+  FaCode,
+  FaDev,
+  FaFigma,
+  FaGit,
+  FaGithub,
+  FaHtml5,
+  FaJs,
+  FaPhp,
+  FaReact,
+  FaRProject,
+  FaToolbox,
+} from "react-icons/fa";
+import { FaDiagramNext, FaDiagramProject } from "react-icons/fa6";
+import { SiFigma } from "react-icons/si";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -11,22 +28,71 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
+    title: "Gestion de projets & Méthodologies",
+    icon: <FaDiagramProject className="h-16 w-16 text-emerald-500" />,
+    text: "Méthodologie Agile Scrum : pilotage de projets web complexes avec planification des sprints, suivi des user stories, rituels agiles (daily, sprint review, rétrospectives).",
+  },
+  {
+    id: nanoid(),
     title: "HTML&CSS",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: "Expert en HTML et CSS, capable de créer des sites web visuellement attractifs et responsives pour offrir une expérience utilisateur optimale.",
+    text: "Compétences en HTML et CSS, capable de créer des sites web visuellement attractifs et responsives pour offrir une expérience utilisateur optimale. Bonnes pratiques Opquast, accessibilité. ",
   },
   {
     id: nanoid(),
     title: "Javascript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "Compétence en JavaScript, pour la création d'applications web interactives et dynamiques, en mettant l'accent sur des interactions utilisateur fluides et une fonctionnalité optimale.",
+    text: "Compétences en JavaScript, pour la création d'applications web interactives et dynamiques, en mettant l'accent sur des interactions utilisateur fluides et une fonctionnalité optimale. Manipulation du DOM, appels asynchrones (Fetch, Promises, async/await), gestion des événements, programmation fonctionnelle et orientée objet.",
   },
   {
     id: nanoid(),
     title: "React",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Maîtrise avancée de React, pour le développement d'applications front-end efficaces et interactives, avec un fort accent sur l'architecture basée sur les composants.",
+    text: "Compétences en React, pour le développement d'applications front-end efficaces et interactives, intégration d’APIs, gestion de formulaires, filtres, modales, listes dynamiques et dashboards. Approche modulaire et maintenable, avec optimisation des performances et accessibilité.",
   },
+  {
+    id: nanoid(),
+    title: "UX/UI Design",
+    icon: <FaFigma className="h-16 w-16 text-emerald-500" />,
+    text: "Design d’interfaces : création de maquettes, design systems, prototypage interactif, tests utilisateurs, audit UX, tests modérés/non modérés, analyse heuristique, amélioration continue.",
+    tools: "Outils : Figma, Adobe XD",
+  },
+  {
+    id: nanoid(),
+    title: "Jira",
+    icon: <FaAtlassian className="h-16 w-16 text-emerald-500" />,
+    text: "Compétences sur l’outil de gestion de projet agile pour planifier, suivre et coordonner efficacement les tâches en équipe. Configuration de workflows, gestion des sprints Scrum/Kanban, suivi des tickets, et reporting pour une meilleure visibilité sur l'avancement des projets. Collaboration avec les équipes pluridisciplinaires (PO,QA).",
+  },
+  // {
+  //   id: nanoid(),
+  //   title: "",
+  //   icon: <FaChartBar className="h-16 w-16 text-emerald-500" />,
+  //   text: "",
+  // },
+  {
+    id: nanoid(),
+    title: "ToolBox",
+    icon: <FaToolbox className="h-16 w-16 text-emerald-500" />,
+    text: "Utilisation d’outils collaboratifs (Jira, Trello, Confluence, Miro, Azure DevOps) pour la planification, le suivi de backlog et la priorisation.",
+  },
+  {
+    id: nanoid(),
+    title: "Git/GitHub",
+    icon: <FaGithub className="h-16 w-16 text-emerald-500" />,
+    text: "Utilisation quotidienne de pour le versioning, la gestion de branches, les merges, résolution de conflits, pull requests, revue de code,documentation collaborative.",
+  },
+  {
+    id: nanoid(),
+    title: "Php",
+    icon: <FaPhp className="h-16 w-16 text-emerald-500" />,
+    text: "Copetences back-end orienté objet (POO), gestion des requêtes SQL (MySQL), intégration d'APIs REST, génération de PDF, traitement de formulaires.",
+  },
+  // {
+  //   id: nanoid(),
+  //   title: "",
+  //   icon: <FaCode className="h-16 w-16 text-emerald-500" />,
+  //   text: "",
+  // },
 ];
 
 export const projects = [
