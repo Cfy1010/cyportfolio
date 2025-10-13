@@ -163,8 +163,8 @@ export const projects = [
   {
     id: nanoid(),
     img: "../src/assets/todolist_in_react.png",
-    url: "https://cfy1010.github.io/todolist_in_react/",
-    github: "https://github.com/Cfy1010/todolist_in_react",
+    url: "https://cfy1010.github.io/todolist-in-react/",
+    github: "https://github.com/Cfy1010/todolist-in-react",
     title: "todolist_in_react",
     text: "",
   },
@@ -207,5 +207,13 @@ export const projects = [
     github: "https://github.com/Cfy1010/CyPyImmo",
     title: "CyPyImmo",
     text: "Python + Django + PostgreSQL (à partir d'un site statique HTML/CSS/Bootstrap/Lightbox).",
+  },
+  {
+    id: nanoid(),
+    img: "../src/assets/cymovies-min.jpg",
+    url: "https://cfy1010.github.io/CyMovies-2022/",
+    github: "https://github.com/Cfy1010/CyMovies-2022",
+    title: "CyMovies",
+    text: "Mes coups de coeurs cinema !.",
   },
 ];
