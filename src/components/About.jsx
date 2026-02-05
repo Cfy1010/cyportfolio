@@ -6,27 +6,37 @@ const About = () => {
     <section className="bg-white py-20" id="about">
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
         <img src={aboutSvg} alt="image" className="w-full h-64" />
-        <article>
+        <article className="prose prose-lg">
           <SectionTitle text="About Me" />
           <p>
-            Fort de plus de 6 ans d'expérience en tant que responsable UX/UI et
-            développeur web, je suis passionné par la conception et la gestion
-            de projets web innovants, axés sur l'expérience utilisateur. <br />
-            Certifié OpQuast (score 885), Agile Scrum et Google IT Support, j'ai
-            acquis une expertise solide dans la création de plateformes
-            collaboratives performantes et accessibles. Mon parcours de 12 ans
-            en gestion de la qualité (QSE) vient renforcer mes compétences en
-            gestion de projets complexes. <br /> <br />
-            {/* Chez Berger-Levrault, leader du numérique au service du secteur
-            public et social, j'ai contribué à la refonte UX/UI de plateformes
-            destinées à des collectivités, associations et établissements de
-            santé. <br /> */}
-            Mon travail collaboratif avec des équipes pluridisciplinaires a
-            permis de livrer des solutions de qualité, optimisées pour
-            l'accessibilité, la performance et l'innovation. <br />
-            Je suis fier d'avoir participé à des projets facilitant la
-            coopération et la coordination dans des environnements publics et
-            sociaux.
+            Avec plus de <strong>4 ans d’expérience en produit digital</strong>{" "}
+            en tant que Responsable UX/UI et Développeur Web, je conçois et fais
+            évoluer des projets numériques centrés utilisateur, utiles et
+            durables.
+          </p>
+
+          <p>
+            Certifié <strong>OpQuast niveau avancé (score 885)</strong> et
+            Google IT Support, j’ai contribué à la création de
+            <strong>
+              plateformes collaboratives performantes et accessibles
+            </strong>
+            , dans des contextes métiers et réglementaires exigeants.
+          </p>
+
+          <p>
+            Mon parcours de{" "}
+            <strong>12 ans en management de la qualité (QSE)</strong>
+            renforce mon approche produit : exigence, fiabilité, amélioration
+            continue et pilotage de projets complexes.
+          </p>
+
+          <p>
+            J’évolue naturellement dans des{" "}
+            <strong>équipes pluridisciplinaires</strong>
+            et j’ai participé à des projets à fort impact dans les secteurs
+            public et social, facilitant la coopération, la coordination et la
+            mise en valeur de l’expérience utilisateur.
           </p>
         </article>
       </div>

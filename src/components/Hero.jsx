@@ -6,14 +6,17 @@ const Hero = () => {
     <div className="bg-emerald-100 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
-          <h1 className="text-7xl font-bold tracking-wider">
-            Cyrille<span className="text-emerald-600"> Allard</span>
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+            Product Owner / Lead Produit
+            <span class="block text-emerald-600">UX & Qualité</span>
           </h1>
-          <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-            Responsable UX/UI & Développeur Web
+          <p className="mt-6 text-lg md:text-xl text-gray-700 font-medium">
+            Responsable UX/UI & Développeur Web 4 ans en produit digital · 12
+            ans en management de la qualité
           </p>
-          <p className="mt-2 text-lg text-slate-700 tracking-wide">
-            Transformer les idées en réalité interactive
+          <p className="mt-6 max-w-2xl text-lg md:text-xl text-gray-600 leading-relaxed">
+            Concevoir, cadrer et faire évoluer des produits numériques utiles,
+            accessibles et durables.
           </p>
           <div className="flex gap-x-4 mt-4">
             <a href="https://github.com/Cfy1010">
