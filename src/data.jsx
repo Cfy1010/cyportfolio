@@ -28,41 +28,54 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: "Gestion de projets & Méthodologies",
+    title: "Gestion de produit & Méthodologies agiles",
     icon: <FaDiagramProject className="h-16 w-16 text-emerald-500" />,
-    text: "Méthodologie Agile Scrum : pilotage de projets web complexes avec planification des sprints, suivi des user stories, rituels agiles (daily, sprint review, rétrospectives).",
+    text: `Cadrage fonctionnel et pilotage de projets numériques dans des contextes métiers et réglementaires complexes.\nApproche Agile Scrum : priorisation par la valeur, gestion du backlog, rédaction et suivi des user stories, animation des rituels (daily, sprint review, rétrospectives).\nCollaboration étroite avec développeurs, designers et parties prenantes afin d’aligner besoins utilisateurs, contraintes techniques et objectifs organisationnels.`,
+  },
+  {
+    id: nanoid(),
+    title: "UX / UI",
+    icon: <FaFigma className="h-16 w-16 text-emerald-500" />,
+    text: `Conception d’interfaces orientées usage et valeur : recherche utilisateur, parcours, wireframes, maquettage et prototypage interactif. Réalisation de tests utilisateurs (modérés / non modérés), audits UX et analyses heuristiques pour améliorer l’utilisabilité et l’accessibilité. Maîtrise des outils Figma et Adobe XD, avec une attention forte portée à la cohérence des interfaces et aux design systems.",
+    tools: "Outils : Figma, Adobe XD`,
+  },
+  {
+    id: nanoid(),
+    title: "Qualité web & Accessibilité",
+    icon: <FaToolbox className="h-16 w-16 text-emerald-500" />,
+    text: `Intégration des bonnes pratiques de qualité web dès la conception : accessibilité, performance, robustesse et maintenabilité.
+    Application du référentiel OpQuast (certifié niveau avancé – score 885) dans une logique produit, en lien avec les enjeux utilisateurs et réglementaires.
+    La qualité est abordée comme un levier de valeur produit, et non comme une contrainte.`,
+  },
+
+  {
+    id: nanoid(),
+    title: "JavaScript & logique applicative",
+    icon: <FaJs className="h-16 w-16 text-emerald-500" />,
+    text: `Développement de fonctionnalités web interactives en JavaScript, avec une attention portée à la clarté de la logique métier et aux interactions utilisateur.
+    Manipulation du DOM, gestion des événements, appels asynchrones (Fetch, async/await), structuration du code pour des applications lisibles et évolutives`,
+  },
+  {
+    id: nanoid(),
+    title: "React & front-end moderne",
+    icon: <FaReact className="h-16 w-16 text-emerald-500" />,
+    text: `Développement d’interfaces front-end avec React : composants, gestion d’état, formulaires, listes dynamiques et intégration d’API.
+    Approche modulaire et maintenable, avec prise en compte des performances, de l’accessibilité et de l’expérience utilisateur dans des projets concrets.`,
   },
   {
     id: nanoid(),
     title: "HTML&CSS",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: "Compétences en HTML et CSS, capable de créer des sites web visuellement attractifs et responsives pour offrir une expérience utilisateur optimale. Bonnes pratiques Opquast, accessibilité. ",
+    text: `Intégration HTML sémantique et CSS responsive pour des interfaces accessibles, performantes et cohérentes visuellement.
+Attention portée à la lisibilité du code, à la compatibilité multi-supports et aux standards du web.`,
   },
-  {
-    id: nanoid(),
-    title: "Javascript",
-    icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "Compétences en JavaScript, pour la création d'applications web interactives et dynamiques, en mettant l'accent sur des interactions utilisateur fluides et une fonctionnalité optimale. Manipulation du DOM, appels asynchrones (Fetch, Promises, async/await), gestion des événements, programmation fonctionnelle et orientée objet.",
-  },
-  {
-    id: nanoid(),
-    title: "React",
-    icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Compétences en React, pour le développement d'applications front-end efficaces et interactives, intégration d’APIs, gestion de formulaires, filtres, modales, listes dynamiques et dashboards. Approche modulaire et maintenable, avec optimisation des performances et accessibilité.",
-  },
-  {
-    id: nanoid(),
-    title: "UX/UI Design",
-    icon: <FaFigma className="h-16 w-16 text-emerald-500" />,
-    text: "Design d’interfaces : création de maquettes, design systems, prototypage interactif, tests utilisateurs, audit UX, tests modérés/non modérés, analyse heuristique, amélioration continue.",
-    tools: "Outils : Figma, Adobe XD",
-  },
-  {
-    id: nanoid(),
-    title: "Jira",
-    icon: <FaAtlassian className="h-16 w-16 text-emerald-500" />,
-    text: "Compétences sur l’outil de gestion de projet agile pour planifier, suivre et coordonner efficacement les tâches en équipe. Configuration de workflows, gestion des sprints Scrum/Kanban, suivi des tickets, et reporting pour une meilleure visibilité sur l'avancement des projets. Collaboration avec les équipes pluridisciplinaires (PO,QA).",
-  },
+
+  // {
+  //   id: nanoid(),
+  //   title: "Jira",
+  //   icon: <FaAtlassian className="h-16 w-16 text-emerald-500" />,
+  //   text: "Compétences sur l’outil de gestion de projet agile pour planifier, suivre et coordonner efficacement les tâches en équipe. Configuration de workflows, gestion des sprints Scrum/Kanban, suivi des tickets, et reporting pour une meilleure visibilité sur l'avancement des projets. Collaboration avec les équipes pluridisciplinaires (PO,QA).",
+  // },
   // {
   //   id: nanoid(),
   //   title: "",
@@ -71,22 +84,23 @@ export const skills = [
   // },
   {
     id: nanoid(),
-    title: "ToolBox",
+    title: "Outils & collaboration",
     icon: <FaToolbox className="h-16 w-16 text-emerald-500" />,
-    text: "Utilisation d’outils collaboratifs (Jira, Trello, Confluence, Miro, Azure DevOps) pour la planification, le suivi de backlog et la priorisation.",
+    text: `Utilisation quotidienne d’outils collaboratifs et de pilotage : Jira, Azure DevOps, Git/GitHub, Confluence, Miro.
+    Gestion du versioning, des branches, des revues de code et de la documentation, dans une logique de travail d’équipe et d’amélioration continue.`,
   },
-  {
-    id: nanoid(),
-    title: "Git/GitHub",
-    icon: <FaGithub className="h-16 w-16 text-emerald-500" />,
-    text: "Utilisation quotidienne de pour le versioning, la gestion de branches, les merges, résolution de conflits, pull requests, revue de code,documentation collaborative.",
-  },
-  {
-    id: nanoid(),
-    title: "Php",
-    icon: <FaPhp className="h-16 w-16 text-emerald-500" />,
-    text: "Copetences back-end orienté objet (POO), gestion des requêtes SQL (MySQL), intégration d'APIs REST, génération de PDF, traitement de formulaires.",
-  },
+  // {
+  //   id: nanoid(),
+  //   title: "Git/GitHub",
+  //   icon: <FaGithub className="h-16 w-16 text-emerald-500" />,
+  //   text: "Utilisation quotidienne de pour le versioning, la gestion de branches, les merges, résolution de conflits, pull requests, revue de code,documentation collaborative.",
+  // },
+  // {
+  //   id: nanoid(),
+  //   title: "Php",
+  //   icon: <FaPhp className="h-16 w-16 text-emerald-500" />,
+  //   text: "Copetences back-end orienté objet (POO), gestion des requêtes SQL (MySQL), intégration d'APIs REST, génération de PDF, traitement de formulaires.",
+  // },
   // {
   //   id: nanoid(),
   //   title: "",
