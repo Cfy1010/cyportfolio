@@ -6,13 +6,13 @@ const Hero = () => {
     <div className="bg-emerald-100 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
-          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
             Product Owner / Lead Produit
-            <span class="block text-emerald-600">UX & Qualité</span>
+            <span className="block text-emerald-600">UX & Qualité</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-gray-700 font-medium">
             Responsable UX/UI & Développeur Web 4 ans en produit digital · 12
-            ans en management de la qualité
+            ans en management de la qualité (QSE)
           </p>
           <p className="mt-6 max-w-2xl text-lg md:text-xl text-gray-600 leading-relaxed">
             Concevoir, cadrer et faire évoluer des produits numériques utiles,

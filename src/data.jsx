@@ -36,8 +36,11 @@ export const skills = [
     id: nanoid(),
     title: "UX / UI",
     icon: <FaFigma className="h-16 w-16 text-emerald-500" />,
-    text: `Conception d’interfaces orientées usage et valeur : recherche utilisateur, parcours, wireframes, maquettage et prototypage interactif. Réalisation de tests utilisateurs (modérés / non modérés), audits UX et analyses heuristiques pour améliorer l’utilisabilité et l’accessibilité. Maîtrise des outils Figma et Adobe XD, avec une attention forte portée à la cohérence des interfaces et aux design systems.",
-    tools: "Outils : Figma, Adobe XD`,
+    text: `Conception d’interfaces orientées usage et valeur : recherche utilisateur, parcours, wireframes, maquettage et prototypage interactif.
+    Audits UX et analyses heuristiques pour améliorer l’utilisabilité et l’accessibilité.
+    Attention forte portée à la cohérence des interfaces, aux design systems et à l’amélioration continue de l’expérience.
+    `,
+    tools: "Outils : Figma, Adobe XD",
   },
   {
     id: nanoid(),
@@ -47,27 +50,27 @@ export const skills = [
     Application du référentiel OpQuast (certifié niveau avancé – score 885) dans une logique produit, en lien avec les enjeux utilisateurs et réglementaires.
     La qualité est abordée comme un levier de valeur produit, et non comme une contrainte.`,
   },
-
-  {
-    id: nanoid(),
-    title: "JavaScript & logique applicative",
-    icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: `Développement de fonctionnalités web interactives en JavaScript, avec une attention portée à la clarté de la logique métier et aux interactions utilisateur.
-    Manipulation du DOM, gestion des événements, appels asynchrones (Fetch, async/await), structuration du code pour des applications lisibles et évolutives`,
-  },
   {
     id: nanoid(),
     title: "React & front-end moderne",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: `Développement d’interfaces front-end avec React : composants, gestion d’état, formulaires, listes dynamiques et intégration d’API.
-    Approche modulaire et maintenable, avec prise en compte des performances, de l’accessibilité et de l’expérience utilisateur dans des projets concrets.`,
+    text: `Développement d’interfaces front-end avec React dans une approche orientée produit et expérience utilisateur : composants réutilisables, gestion de l’état, formulaires, listes dynamiques et intégration d’API.
+    Attention portée aux performances, à l’accessibilité et à la qualité de l’expérience utilisateur dans des projets concrets.`,
   },
+  {
+    id: nanoid(),
+    title: "JavaScript & logique applicative",
+    icon: <FaJs className="h-16 w-16 text-emerald-500" />,
+    text: `Développement de fonctionnalités web interactives avec une attention particulière portée à la logique métier, à la clarté des flux utilisateurs et à la maintenabilité du code.
+    Gestion des interactions (DOM, événements), appels asynchrones (Fetch, Promises, async/await) et structuration de fonctionnalités lisibles, évolutives et alignées avec les besoins produit.`,
+  },
+
   {
     id: nanoid(),
     title: "HTML&CSS",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
     text: `Intégration HTML sémantique et CSS responsive pour des interfaces accessibles, performantes et cohérentes visuellement.
-Attention portée à la lisibilité du code, à la compatibilité multi-supports et aux standards du web.`,
+    Attention portée à la lisibilité du code, à la compatibilité multi-supports et aux standards du web.`,
   },
 
   // {
