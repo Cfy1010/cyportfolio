@@ -32,7 +32,7 @@ import todolistReactImg from "./assets/todolist_in_react.png";
 import todolistVanillaImg from "./assets/todolist-vanillajs-min.png";
 import todosImg from "./assets/todos-min.jpg";
 import accessformImg from "./assets/formvalidator-min.png";
-import cyimmoImg from "./assets/cyimmo-min.png";
+import cyimmoImg from "./assets/cyimmo-min.jpg";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
