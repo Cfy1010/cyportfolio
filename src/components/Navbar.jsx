@@ -2,11 +2,13 @@ import { links } from "../data";
 
 const Navbar = () => {
   return (
-    <nav className="bg-emerald-100">
+    <nav className="sticky top-0 z-50 bg-emerald-100/90 backdrop-blur-sm border-b border-emerald-200">
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
-        <h2 className="text-3xl font-bold">
-          Web<span className="text-emerald-600">Dev</span>
-        </h2>
+        <a href="#">
+          <h2 className="text-3xl font-bold">
+            Web<span className="text-emerald-600">Dev</span>
+          </h2>
+        </a>
         <div className="flex gap-x-3">
           {links.map((link) => {
             const { id, href, text } = link;

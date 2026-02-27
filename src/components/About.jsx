@@ -3,11 +3,11 @@ import SectionTitle from "./SectionTitle";
 
 const About = () => {
   return (
-    <section className="bg-white py-20" id="about">
+    <section className="bg-white py-20 scroll-mt-20" id="about">
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
         <img src={aboutSvg} alt="image" className="w-full h-64" />
         <article className="prose prose-lg">
-          <SectionTitle text="About Me" />
+          <SectionTitle text="Mon Parcours" />
           <p>
             Avec plus de <strong>4 ans d’expérience en produit digital</strong>{" "}
             en tant que Responsable UX/UI et Développeur Web, je conçois et fais
