@@ -31,6 +31,8 @@ import respireImg from "./assets/respire-min.jpg";
 import todolistReactImg from "./assets/todolist_in_react.png";
 import todolistVanillaImg from "./assets/todolist-vanillajs-min.png";
 import todosImg from "./assets/todos-min.jpg";
+import accessformImg from "./assets/formvalidator-min.png";
+import cyimmoImg from "./assets/cyimmo-min.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -153,7 +155,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/cyimmo-min.jpg",
+    img: cyimmoImg,
     url: "https://cfy1010.github.io/CyPyImmo/",
     github: "https://github.com/Cfy1010/CyPyImmo",
     title: "CyPyImmo",
@@ -169,7 +171,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/cyaccessform.png",
+    img: accessformImg,
     url: "https://cfy1010.github.io/CyAccessForm/",
     github: "https://github.com/Cfy1010/CyAccessForm",
     title: "CyAccessForm",
