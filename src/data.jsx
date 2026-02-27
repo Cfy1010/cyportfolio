@@ -19,6 +19,18 @@ import { FaDiagramNext, FaDiagramProject } from "react-icons/fa6";
 import { SiFigma } from "react-icons/si";
 
 import zazyImg from "./assets/zazymusic-min.jpg";
+import cymoviesImg from "./assets/cymovies-min.jpg";
+import cynewsImg from "./assets/cynews-min.jpg";
+import cysongImg from "./assets/cysong-min.jpg";
+import cysoundImg from "./assets/cysound-min.jpg";
+import formvalidatorImg from "./assets/formvalidator-min.png";
+import guitargodsImg from "./assets/guitargods-min.jpg";
+import imgstarwarsImg from "./assets/imgstarwars-min.jpg";
+import modernportfolioImg from "./assets/modernportfolio.png";
+import respireImg from "./assets/respire-min.jpg";
+import todolistReactImg from "./assets/todolist_in_react.png";
+import todolistVanillaImg from "./assets/todolist-vanillajs-min.png";
+import todosImg from "./assets/todos-min.jpg";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -125,7 +137,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/modernportfolio.png",
+    img: modernportfolioImg,
     url: "https://cfy1010.github.io/CyOldPortfolio/",
     github: "https://github.com/Cfy1010/CyOldPortfolio",
     title: "CyOldPortfolio",
@@ -133,7 +145,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/formvalidator-min.png",
+    img: formvalidatorImg,
     url: "https://cfy1010.github.io/CyFormValidator/",
     github: "https://github.com/Cfy1010/CyFormValidator",
     title: "Little Form Validator in HTML5 CSS3 & JS",
@@ -149,7 +161,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/cysound-min.jpg",
+    img: cysoundImg,
     url: "https://cfy1010.github.io/CySounds/",
     github: "https://github.com/Cfy1010/CySounds",
     title: "CySounds",
@@ -165,7 +177,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/cynews-min.jpg",
+    img: cynewsImg,
     url: "https://cfy1010.github.io/Cy-News/",
     github: "https://github.com/Cfy1010/Cy-News",
     title: "CyNews",
@@ -174,7 +186,7 @@ export const projects = [
 
   {
     id: nanoid(),
-    img: "../src/assets/todolist_in_react.png",
+    img: todolistReactImg,
     url: "https://cfy1010.github.io/todolist-in-react/",
     github: "https://github.com/Cfy1010/todolist-in-react",
     title: "todolist_in_react",
@@ -182,7 +194,7 @@ export const projects = [
   },
   // {
   //   id: nanoid(),
-  //   img: "../src/assets/todolist-vanillajs-min.png",
+  //   img: todolistVanillaImg,
   //   url: "https://cfy1010.github.io/todolist/",
   //   github: "https://github.com/Cfy1010/todolist",
   //   title: "My TodoList",
@@ -190,7 +202,7 @@ export const projects = [
   // },
   {
     id: nanoid(),
-    img: "../src/assets/todos-min.jpg",
+    img: todosImg,
     // url: "https://cfy1010.github.io/todolist/",
     github: "https://github.com/Cfy1010/CyToDoList",
     title: "CyToDoList",
@@ -198,7 +210,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/cysong-min.jpg",
+    img: cysongImg,
     url: "https://cfy1010.github.io/CyLyricsSearchApp/",
     github: "https://github.com/Cfy1010/CyLyricsSearchApp",
     title: "Lyrics Search App",
@@ -206,7 +218,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/respire-min.jpg",
+    img: respireImg,
     url: "https://cfy1010.github.io/CyRelaxerApp/",
     github: "https://github.com/Cfy1010/CyRelaxerApp",
     title: "Relaxer App",
@@ -214,7 +226,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/cymovies-min.jpg",
+    img: cymoviesImg,
     url: "https://cfy1010.github.io/CyMovies-2022/",
     github: "https://github.com/Cfy1010/CyMovies-2022",
     title: "CyMovies",
@@ -222,7 +234,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/imgstarwars-min.jpg",
+    img: imgstarwarsImg,
     url: "https://cfy1010.github.io/CyIntroStarWars/",
     github: "https://github.com/Cfy1010/CyIntroStarWars",
     title: "Star Wars opening crawl",
@@ -230,7 +242,7 @@ export const projects = [
   },
   // {
   //   id: nanoid(),
-  //   img: "../src/assets/guitargods-min.jpg",
+  //   img: guitargodsImg,
   //   url: "https://cfy1010.github.io/CyGuitarGods/",
   //   github: "https://github.com/Cfy1010/CyGuitarGods",
   //   title: "Guitar Gods",
