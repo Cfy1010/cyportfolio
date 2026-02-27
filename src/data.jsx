@@ -18,6 +18,8 @@ import {
 import { FaDiagramNext, FaDiagramProject } from "react-icons/fa6";
 import { SiFigma } from "react-icons/si";
 
+import zazyImg from "./assets/zazymusic-min.jpg";
+
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -115,7 +117,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "../src/assets/zazymusic-min.jpg",
+    img: zazyImg,
     url: "https://cfy1010.github.io/CyMusicPlayer/",
     github: "https://github.com/Cfy1010/CyMusicPlayer",
     title: "Zazy's Music Player",
