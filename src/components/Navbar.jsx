@@ -1,14 +1,15 @@
 import { links } from "../data";
 import { useState } from "react";
+import { HiMenuAlt3, HiX } from "react-icons/hi";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <nav className="sticky top-0 z-50 bg-emerald-100/90 backdrop-blur-sm border-b border-emerald-200">
-      <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
+      <div className="align-element py-4 flex flex-col sm:flex-row sm:justify-between sm:items-center sm:py-8">
         {/* Header du menu : Logo + Bouton Burger */}
-        <div className="flex justify-between items-center w-full sm:w-auto">
+        <div className="flex justify-between items-center">
           <a href="#">
             <h2 className="text-3xl font-bold">
               Web<span className="text-emerald-600">Dev</span>
@@ -19,13 +20,13 @@ const Navbar = () => {
             className="sm:hidden text-3xl text-emerald-600"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            {isMobileMenuOpen ? "✕" : "☰"}
+            {isMobileMenuOpen ? <HiX /> : <HiMenuAlt3 />}
           </button>
         </div>
 
-        {/* Liens : cachés sur mobile sauf si isMobileMenuOpen est vrai */}
+        {/* Container des Liens */}
         <div
-          className={`${isMobileMenuOpen ? "flex" : "hidden"} flex-col gap-y-4 mt-4 sm:mt-0 sm:flex sm:flex-row sm:gap-x-3 sm:block`}
+          className={`${isMobileMenuOpen ? "flex" : "hidden"} flex-col gap-y-4 mt-4 sm:mt-0 sm:flex sm:flex-row sm:gap-x-8`}
         >
           {links.map((link) => {
             const { id, href, text } = link;
