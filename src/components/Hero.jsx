@@ -3,9 +3,10 @@ import { FaGithubSquare, FaLinkedin, FaShieldAlt, FaThLarge, FaClipboardList, Fa
 const tags = [
   "PSPO I · 98,8 %",
   "PSM I · 92,5 %",
-  "Opquast 880 / 1000",
+  "Opquast 885 / 1000",
   "HTML · CSS · React · PHP · SQL",
   "Figma · Azure DevOps · Jira",
+  
 ];
 
 const Hero = () => {
@@ -84,7 +85,7 @@ const Hero = () => {
               </div>
               <div>
                 <div className="font-bold text-white text-sm">Opquast</div>
-                <div className="text-emerald-300 text-sm">880 / 1000</div>
+                <div className="text-emerald-300 text-sm">885 / 1000</div>
               </div>
             </div>
           </div>
