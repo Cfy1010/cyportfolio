@@ -14,7 +14,7 @@ const Projects = () => {
         <p className="text-emerald-700 text-xs font-semibold tracking-widest uppercase border-b border-emerald-800 pb-4 mb-6">
           Réalisations professionnelles — Berger-Levrault
         </p>
-        <div className="grid lg:grid-cols-2 gap-4 mb-12">
+        <div className="grid sm:grid-cols-2 gap-4 mb-12">
           {professionalProjects.map((project) => (
             <ProjectsCard key={project.id} {...project} />
           ))}
@@ -23,7 +23,7 @@ const Projects = () => {
         <p className="text-emerald-700 text-xs font-semibold tracking-widest uppercase border-b border-emerald-800 pb-4 mb-6">
           Projets personnels &amp; apprentissage
         </p>
-        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {projects.map((project) => (
             <ProjectsCard key={project.id} {...project} />
           ))}
