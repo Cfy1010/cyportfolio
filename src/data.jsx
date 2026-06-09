@@ -1,39 +1,39 @@
 import { nanoid } from "nanoid";
 import {
-  FaAccessibleIcon,
-  FaAtlassian,
-  FaChartBar,
-  FaCode,
-  FaDev,
+  // FaAccessibleIcon,
+  // FaAtlassian,
+  // FaChartBar,
+  // FaCode,
+  // FaDev,
   FaFigma,
-  FaGit,
-  FaGithub,
+  // FaGit,
+  // FaGithub,
   FaHtml5,
   FaJs,
   FaMapMarkerAlt,
   FaMobileAlt,
-  FaPhp,
+  // FaPhp,
   FaReact,
-  FaRProject,
+  // FaRProject,
   FaToolbox,
   FaUsers,
 } from "react-icons/fa";
-import { FaDiagramNext, FaDiagramProject } from "react-icons/fa6";
-import { SiFigma } from "react-icons/si";
+import { FaDiagramProject } from "react-icons/fa6";
+// import { SiFigma } from "react-icons/si";
 
 import zazyImg from "./assets/zazymusic-min.jpg";
 import cymoviesImg from "./assets/cymovies-min.jpg";
-import cynewsImg from "./assets/cynews-min.jpg";
+// import cynewsImg from "./assets/cynews-min.jpg";
 import cysongImg from "./assets/cysong-min.jpg";
 import cysoundImg from "./assets/cysound-min.jpg";
-import formvalidatorImg from "./assets/formvalidator-min.png";
-import guitargodsImg from "./assets/guitargods-min.jpg";
-import imgstarwarsImg from "./assets/imgstarwars-min.jpg";
+// import formvalidatorImg from "./assets/formvalidator-min.png";
+// import guitargodsImg from "./assets/guitargods-min.jpg";
+// import imgstarwarsImg from "./assets/imgstarwars-min.jpg";
 import modernportfolioImg from "./assets/modernportfolio.png";
 import respireImg from "./assets/respire-min.jpg";
 import todolistReactImg from "./assets/todolist_in_react.png";
-import todolistVanillaImg from "./assets/todolist-vanillajs-min.png";
-import todosImg from "./assets/todos-min.jpg";
+// import todolistVanillaImg from "./assets/todolist-vanillajs-min.png";
+// import todosImg from "./assets/todos-min.jpg";
 import accessformImg from "./assets/formvalidator-min.png";
 import cyimmoImg from "./assets/cyimmo-min.jpg";
 import tableaubord67Img from "./assets/tableaubord67.png";
