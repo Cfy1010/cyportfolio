@@ -25,11 +25,12 @@ const Hero = () => {
             </span>
           </h1>
           <p className="mt-6 text-emerald-100/80 leading-relaxed text-base">
-            4 ans en Product Ownership sur un catalogue SaaS B2B multi-produits
-            (30+ départements, secteur public) · 11 ans en management de la
-            qualité dont une accréditation COFRAC ISO 17020. Profil M-shaped :
-            qualité, UX/UI, développement full-stack et agilité — un
-            interlocuteur crédible côté métier comme côté technique.
+            12 ans en management de la qualité, dont une accréditation COFRAC
+            ISO 17020 construite de zéro, puis 4 ans chez Berger-Levrault sur
+            un catalogue SaaS B2B du secteur public (30+ départements clients) :
+            cadrage fonctionnel, UX/UI, recette et support fonctionnel. Un
+            regard qualité, UX et technique pour échanger aussi bien avec les
+            métiers qu'avec les développeurs.
           </p>
           <div className="flex flex-wrap gap-2 mt-6">
             {tags.map((tag, i) => (
@@ -56,15 +57,15 @@ const Hero = () => {
             <FaThLarge className="h-6 w-6 text-emerald-400 mb-3" />
             <div className="text-3xl font-bold text-white">4 ans</div>
             <div className="text-sm text-emerald-300 mt-1 leading-snug">
-              Product Owner &amp; Lead UX
+              Lead UX/UI &amp; développement
               <br />
-              SaaS B2B · secteur public
+              SaaS B2B · secteur privé-public
             </div>
           </div>
 
           <div className="bg-emerald-800 rounded-2xl p-5">
             <FaShieldAlt className="h-6 w-6 text-emerald-400 mb-3" />
-            <div className="text-3xl font-bold text-white">11 ans</div>
+            <div className="text-3xl font-bold text-white">12 ans</div>
             <div className="text-sm text-emerald-300 mt-1 leading-snug">
               Management qualité
               <br />

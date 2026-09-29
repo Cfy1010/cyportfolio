@@ -1,6 +1,6 @@
 const stats = [
-  { value: "4 ans", label: "Product Owner & Lead UX SaaS B2B" },
-  { value: "11 ans", label: "Management qualité dont COFRAC ISO 17020" },
+  { value: "4 ans", label: "Lead UX/UI sur des SaaS B2B" },
+  { value: "12 ans", label: "Management qualité dont COFRAC ISO 17020" },
   { value: "30+", label: "Départements clients servis" },
   { value: "885", label: "Score Opquast Niveau Avancé" },
 ];
@@ -38,13 +38,14 @@ const About = () => {
 
         <div className="text-emerald-100/80 leading-relaxed space-y-5 text-base">
           <p>
-            11 ans en inspection et management qualité — dont le pilotage
-            complet et l'obtention d'une accréditation{" "}
-            <strong className="text-emerald-400">COFRAC ISO 17020</strong> —
-            puis presque 4 ans comme Product Owner &amp; Lead UX chez
-            Berger-Levrault sur des logiciels SaaS B2B secteur public, avec des
-            missions de cadrage fonctionnel et de priorisation backlog par la
-            valeur.
+            12 ans en inspection et management de la qualité, dont la
+            construction complète d'une accréditation{" "}
+            <strong className="text-emerald-400">COFRAC ISO 17020</strong>.
+            Puis presque 4 ans chez Berger-Levrault sur des logiciels SaaS B2B
+            du secteur public, d'abord Référent Qualité puis développeur web
+            avec un rôle de Lead UX/UI : refontes produit de bout en bout,
+            en équipe travaillant en sprints, et support fonctionnel au
+            quotidien.
           </p>
 
           <div className="border-l-4 border-emerald-500 pl-4">
@@ -68,13 +69,11 @@ const About = () => {
           </div>
 
           <p>
-            Certifié PSPO I (98,8 %) et PSM I (92,5 %) — Scrum.org, 2026 — et{" "}
+            Certifié PSPO I (98,8 %) et PSM I (92,5 %) chez Scrum.org en 2026,
+            et{" "}
             <strong className="text-emerald-400">Opquast Avancé (885/1000)</strong>
-            , je travaille à l'intersection du cadrage fonctionnel, de l'UX et
-            du delivery Agile. Mon profil M-shaped me permet d'être un
-            interlocuteur crédible aussi bien côté métier que technique, dans
-            des environnements où la complexité fonctionnelle et l'exigence de
-            delivery font la différence.
+            , je recherche un poste de Product Owner : en présentiel autour de
+            Tours, en hybride selon la distance, ou en full remote.
           </p>
 
           <p>

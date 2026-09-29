@@ -12,7 +12,7 @@ const Projects = () => {
         <div className="w-10 h-1 bg-emerald-400 mb-10 rounded" />
 
         <p className="text-emerald-700 text-xs font-semibold tracking-widest uppercase border-b border-emerald-800 pb-4 mb-6">
-          Réalisations professionnelles — Berger-Levrault
+          Réalisations professionnelles · Berger-Levrault
         </p>
         <div className="grid sm:grid-cols-2 gap-4 mb-12">
           {professionalProjects.map((project) => (

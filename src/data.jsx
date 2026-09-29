@@ -52,7 +52,7 @@ export const skills = [
     id: nanoid(),
     title: "Gestion de produit & Méthodologies agiles",
     icon: <FaDiagramProject className="h-16 w-16 text-emerald-500" />,
-    text: `Cadrage fonctionnel et pilotage de projets numériques dans des contextes métiers et réglementaires complexes.\nApproche Agile Scrum : priorisation par la valeur, gestion du backlog, rédaction et suivi des user stories, animation des rituels (daily, sprint review, rétrospectives).\nCollaboration étroite avec développeurs, designers et parties prenantes afin d’aligner besoins utilisateurs, contraintes techniques et objectifs organisationnels.`,
+    text: `Cadrage fonctionnel dans des contextes métiers et réglementaires complexes : recueil des besoins, cahiers des charges, user stories et critères d'acceptation, découpage en lots.\nTravail en équipe Scrum, en sprints, jusqu'à la mise en production. Certifié PSPO I et PSM I.\nCollaboration étroite avec développeurs et parties prenantes pour aligner besoins utilisateurs, contraintes techniques et objectifs.`,
   },
   {
     id: nanoid(),
@@ -141,7 +141,7 @@ export const projects = [
     url: "https://cfy1010.github.io/CyPyImmo/",
     github: "https://github.com/Cfy1010/CyPyImmo",
     title: "CyPyImmo",
-    text: "Site immobilier — Python, Django, PostgreSQL.",
+    text: "Site immobilier : Python, Django, PostgreSQL.",
   },
   {
     id: nanoid(),
@@ -149,7 +149,7 @@ export const projects = [
     url: "https://cfy1010.github.io/CySounds/",
     github: "https://github.com/Cfy1010/CySounds",
     title: "CySounds",
-    text: "Site vitrine thématique musique — HTML/CSS/JS.",
+    text: "Site vitrine thématique musique : HTML/CSS/JS.",
   },
   {
     id: nanoid(),
@@ -157,7 +157,7 @@ export const projects = [
     url: "https://cfy1010.github.io/CyMusicPlayer/",
     github: "https://github.com/Cfy1010/CyMusicPlayer",
     title: "Zazy's Music Player",
-    text: "Lecteur audio custom — HTML/CSS/JS.",
+    text: "Lecteur audio custom : HTML/CSS/JS.",
   },
   {
     id: nanoid(),
@@ -165,7 +165,7 @@ export const projects = [
     url: "https://cfy1010.github.io/todolist-in-react/",
     github: "https://github.com/Cfy1010/todolist-in-react",
     title: "Todolist in React",
-    text: "Todo list — exercice React (composants, état, CRUD).",
+    text: "Todo list : exercice React (composants, état, CRUD).",
   },
   {
     id: nanoid(),
@@ -173,7 +173,7 @@ export const projects = [
     url: "https://cfy1010.github.io/CyLyricsSearchApp/",
     github: "https://github.com/Cfy1010/CyLyricsSearchApp",
     title: "Lyrics Search App",
-    text: "Recherche de paroles via API — JS, Fetch, async/await.",
+    text: "Recherche de paroles via API : JS, Fetch, async/await.",
   },
   {
     id: nanoid(),
@@ -181,7 +181,7 @@ export const projects = [
     url: "https://cfy1010.github.io/CyMovies-2022/",
     github: "https://github.com/Cfy1010/CyMovies-2022",
     title: "CyMovies",
-    text: "App de films coups de cœur — React, API TMDB (2019).",
+    text: "App de films coups de cœur : React, API TMDB.",
   },
   {
     id: nanoid(),
@@ -189,7 +189,7 @@ export const projects = [
     url: "https://cfy1010.github.io/CyAccessForm/",
     github: "https://github.com/Cfy1010/CyAccessForm",
     title: "CyAccessForm",
-    text: "Formulaire accessible — exemples HTML5 accessibilité.",
+    text: "Formulaire accessible : exemples HTML5 accessibilité.",
   },
   {
     id: nanoid(),
@@ -197,7 +197,7 @@ export const projects = [
     url: "https://cfy1010.github.io/CyRelaxerApp/",
     github: "https://github.com/Cfy1010/CyRelaxerApp",
     title: "Relaxer App",
-    text: "Mini app de relaxation — CSS animation, JS timer.",
+    text: "Mini app de relaxation : CSS animation, JS timer.",
   },
   {
     id: nanoid(),
@@ -205,7 +205,7 @@ export const projects = [
     url: "https://cfy1010.github.io/CyOldPortfolio/",
     github: "https://github.com/Cfy1010/CyOldPortfolio",
     title: "CyOldPortfolio",
-    text: "1er portfolio personnel — HTML/CSS/JS (2019).",
+    text: "1er portfolio personnel : HTML/CSS/JS (2019).",
   },
 ];
 
@@ -216,8 +216,8 @@ export const professionalProjects = [
     date: "2020 – 2024",
     title: "NeoJob / NeoGestion / Insertion-Formation-Inclusion",
     subtitle: "SaaS B2B · Secteur public · 30+ départements clients",
-    text: "Cadrage fonctionnel et UX/UI multiproduits pour 6 profils usagers. Priorisation backlog par la valeur, rédaction US et critères d'acceptation. 15+ instances clients déployées.",
-    tags: ["Product Ownership", "Figma", "React", "PHP", "SQL", "Azure DevOps"],
+    text: "Cadrage fonctionnel et UX/UI multiproduits pour 6 profils usagers : user stories et critères d'acceptation, maquettes, recette, support fonctionnel au quotidien. Développement sur 15+ instances clients.",
+    tags: ["Cadrage fonctionnel", "Figma", "React", "PHP", "SQL", "Azure DevOps"],
     icon: <FaUsers className="h-4 w-4 text-emerald-400" />,
     professional: true,
   },
@@ -227,7 +227,7 @@ export const professionalProjects = [
     date: "2020 – 2024",
     title: "Qanteen",
     subtitle: "Application mobile · Restauration collective",
-    text: "Conception UX et développement full-stack : planning hebdomadaire, fiches recettes et allergènes, onboarding multiprofils, authentification SMS.",
+    text: "Conception UX et co-développement full-stack : planning hebdomadaire, fiches recettes et allergènes, onboarding multiprofils, authentification SMS.",
     tags: ["UX Design", "Adobe XD", "React", "PHP", "Auth SMS"],
     icon: <FaMobileAlt className="h-4 w-4 text-emerald-400" />,
     professional: true,
@@ -249,7 +249,7 @@ export const professionalProjects = [
     date: "2020 – 2024",
     title: "Design System Figma multi-équipes",
     subtitle: "Référentiel UX commun · Comité Ergonomique",
-    text: "Déploiement d'un Design System partagé entre plusieurs équipes produit. Comité Ergonomique mis en place en 2 mois, remonté jusqu'au CODIR. Audits Opquast (25 critères/plateforme).",
+    text: "Déploiement d'un Design System partagé entre plusieurs équipes produit. Reprise et animation du Comité Ergonomique sponsorisé par le CODIR. Audits Opquast (25 critères/plateforme).",
     tags: ["Figma", "Design System", "Opquast", "Accessibilité"],
     icon: <FaFigma className="h-4 w-4 text-emerald-400" />,
     professional: true,
