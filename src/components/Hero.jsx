@@ -6,7 +6,6 @@ const tags = [
   "Opquast 885 / 1000",
   "HTML · CSS · React · PHP · SQL",
   "Figma · Azure DevOps · Jira",
-  
 ];
 
 const Hero = () => {
@@ -30,7 +29,7 @@ const Hero = () => {
             un catalogue SaaS B2B du secteur public (30+ départements clients) :
             cadrage fonctionnel, UX/UI, recette et support fonctionnel. Un
             regard qualité, UX et technique pour échanger aussi bien avec les
-            métiers qu'avec les développeurs.
+            métiers qu&apos;avec les développeurs.
           </p>
           <div className="flex flex-wrap gap-2 mt-6">
             {tags.map((tag, i) => (
@@ -43,10 +42,13 @@ const Hero = () => {
             ))}
           </div>
           <div className="flex gap-x-4 mt-6">
-            <a href="https://github.com/Cfy1010">
+            <a href="https://github.com/Cfy1010" aria-label="GitHub">
               <FaGithubSquare className="h-8 w-8 text-emerald-400 hover:text-white duration-300" />
             </a>
-            <a href="https://www.linkedin.com/in/cyrilleallard/">
+            <a
+              href="https://www.linkedin.com/in/cyrilleallard/"
+              aria-label="LinkedIn"
+            >
               <FaLinkedin className="h-8 w-8 text-emerald-400 hover:text-white duration-300" />
             </a>
           </div>
