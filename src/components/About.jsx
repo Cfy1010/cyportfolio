@@ -1,5 +1,5 @@
 const stats = [
-  { value: "4 ans", label: "Lead UX/UI sur des SaaS B2B" },
+  { value: "~4 ans", label: "UX/UI et qualité web chez un éditeur SaaS" },
   { value: "12 ans", label: "Management qualité dont COFRAC ISO 17020" },
   { value: "30+", label: "Départements clients servis" },
   { value: "885", label: "Score Opquast Niveau Avancé" },
@@ -7,7 +7,7 @@ const stats = [
 
 const tags = [
   "Cadrage fonctionnel",
-  "Priorisation backlog",
+  "Priorisation UX/UI & correctifs",
   "User Stories",
   "Agile Scrum · EBM",
   "Design System Figma",
@@ -41,11 +41,12 @@ const About = () => {
             12 ans en inspection et management de la qualité, dont la
             construction complète d'une accréditation{" "}
             <strong className="text-emerald-400">COFRAC ISO 17020</strong>.
-            Puis presque 4 ans chez Berger-Levrault sur des logiciels SaaS B2B
-            du secteur public, d'abord Référent Qualité puis développeur web
-            avec un rôle de Lead UX/UI : refontes produit de bout en bout,
-            en équipe travaillant en sprints, et support fonctionnel au
-            quotidien.
+            Puis presque 4 ans chez Berger-Levrault, éditeur de logiciels SaaS
+            pour des départements et des régions : d&apos;abord Référent Qualité,
+            puis développeur web responsable UX/UI et qualité web, avec la
+            décision finale sur l&apos;UX/UI. Refontes produit de l&apos;analyse de
+            l&apos;existant jusqu&apos;à la livraison, en équipe travaillant en sprints,
+            et support fonctionnel au quotidien.
           </p>
 
           <div className="border-l-4 border-emerald-500 pl-4">
@@ -79,11 +80,18 @@ const About = () => {
           <p>
             J'évolue naturellement dans des{" "}
             <strong className="text-white">équipes pluridisciplinaires</strong>{" "}
-            et j'ai contribué à des projets à fort impact dans les{" "}
-            <strong className="text-white">secteurs public et social</strong>{" "}
-            (allocataires RSA, recruteurs, conseillers, décideurs), facilitant
-            la coopération, la coordination et la mise en valeur de l'expérience
-            utilisateur.
+            et j&apos;ai conçu des produits pour les{" "}
+            <strong className="text-white">secteurs public et social</strong>,
+            utilisés par 6 profils d&apos;usagers (allocataires RSA, recruteurs,
+            conseillers, décideurs…). Aujourd&apos;hui, je pratique le rôle de
+            Product Owner sur{" "}
+            <a
+              href="https://ofests.com"
+              className="text-emerald-400 underline hover:text-white"
+            >
+              O-Fests
+            </a>
+            , mon projet personnel.
           </p>
 
           <div className="flex flex-wrap gap-2 pt-2">

@@ -39,6 +39,7 @@ import cyimmoImg from "./assets/cyimmo-min.jpg";
 import tableaubord67Img from "./assets/tableaubord67.png";
 import qanteenImg from "./assets/qanteen.png";
 import cartographyImg from "./assets/cartography.webp";
+import ofestsImg from "./assets/ofests-card.svg";
 
 export const links = [
   // { id: nanoid(), href: "#home", text: "home" },
@@ -111,8 +112,8 @@ export const skills = [
     id: nanoid(),
     title: "Outils & collaboration",
     icon: <FaToolbox className="h-16 w-16 text-emerald-500" />,
-    text: `Utilisation quotidienne d’outils collaboratifs et de pilotage : Jira, Azure DevOps, Git/GitHub, Confluence, Miro.
-    Gestion du versioning, des branches, des revues de code et de la documentation, dans une logique de travail d’équipe et d’amélioration continue.`,
+    text: `Utilisation quotidienne d’outils collaboratifs et de pilotage : Jira, Azure DevOps, Git/GitHub, Confluence.
+    Gestion du versioning, des branches, des revues de pull requests et de la documentation, dans une logique de travail d’équipe et d’amélioration continue.`,
   },
   // {
   //   id: nanoid(),
@@ -137,11 +138,20 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: ofestsImg,
+    url: "https://ofests.com",
+    github: "https://github.com/Cfy1010/ofests",
+    title: "O-Fests · projet personnel (2026)",
+    text: "Annuaire des festivals de metal en Europe, bilingue, en construction et livré par incréments. Rôle de Product Owner : Product Goal, backlog en epics et user stories, Definition of Done, 20+ décisions tracées en ADR, analyse de la concurrence. Développement assisté par IA (Claude Code) : je définis, découpe, arbitre et valide.",
+    tags: ["Product Ownership", "Astro", "React", "Supabase", "Claude Code"],
+  },
+  {
+    id: nanoid(),
     img: cyimmoImg,
     url: "https://cfy1010.github.io/CyPyImmo/",
     github: "https://github.com/Cfy1010/CyPyImmo",
     title: "CyPyImmo",
-    text: "Site immobilier : Python, Django, PostgreSQL.",
+    text: "Site immobilier, ancien projet d'apprentissage : Python, Django, PostgreSQL.",
   },
   {
     id: nanoid(),
@@ -238,7 +248,7 @@ export const professionalProjects = [
     date: "2020 – 2024",
     title: "Cartographie interactive des offres",
     subtitle: "Offres d'emploi & d'insertion géolocalisées",
-    text: "Interfaces cartographiques interactives avec filtres dynamiques, alimentées par les flux data du service interne.",
+    text: "Carte interactive des offres pour le CD17, avec filtres dynamiques, alimentée par les flux data du service interne : spécification et tests des comportements de recherche.",
     tags: ["JavaScript", "React", "Leaflet", "API data"],
     icon: <FaMapMarkerAlt className="h-4 w-4 text-emerald-400" />,
     professional: true,
@@ -249,7 +259,7 @@ export const professionalProjects = [
     date: "2020 – 2024",
     title: "Design System Figma multi-équipes",
     subtitle: "Référentiel UX commun · Comité Ergonomique",
-    text: "Déploiement d'un Design System partagé entre plusieurs équipes produit. Reprise et animation du Comité Ergonomique sponsorisé par le CODIR. Audits Opquast (25 critères/plateforme).",
+    text: "Déploiement d'un Design System partagé entre plusieurs équipes produit. Reprise et animation, comme Référent Qualité, du Comité Ergonomique sponsorisé par le CODIR. Audits Opquast (25 critères/plateforme).",
     tags: ["Figma", "Design System", "Opquast", "Accessibilité"],
     icon: <FaFigma className="h-4 w-4 text-emerald-400" />,
     professional: true,
