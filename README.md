@@ -1,4 +1,4 @@
-# Portfolio – Product Owner / Lead Produit
+# Portfolio – Cyrille Allard
 
 Portfolio personnel présentant mon positionnement et mes compétences en
 **produit digital, UX/UI et qualité web**.
@@ -14,7 +14,7 @@ parcours et de mon approche produit, à travers :
 
 ## Positionnement
 
-Product Owner / Lead Produit avec une forte culture UX et qualité web.  
+Certifié PSPO I et PSM I, je vise un poste de Product Owner, avec une forte culture UX et qualité web.  
 J’interviens sur le cadrage fonctionnel, la conception centrée utilisateur,
 la priorisation par la valeur et le delivery de produits numériques utiles,
 accessibles et durables.
