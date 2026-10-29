@@ -21,21 +21,21 @@ import {
 import { FaDiagramProject } from "react-icons/fa6";
 // import { SiFigma } from "react-icons/si";
 
-import zazyImg from "./assets/zazymusic-min.jpg";
-import cymoviesImg from "./assets/cymovies-min.jpg";
+// import zazyImg from "./assets/zazymusic-min.jpg";
+// import cymoviesImg from "./assets/cymovies-min.jpg";
 // import cynewsImg from "./assets/cynews-min.jpg";
-import cysongImg from "./assets/cysong-min.jpg";
-import cysoundImg from "./assets/cysound-min.jpg";
+// import cysongImg from "./assets/cysong-min.jpg";
+// import cysoundImg from "./assets/cysound-min.jpg";
 // import formvalidatorImg from "./assets/formvalidator-min.png";
 // import guitargodsImg from "./assets/guitargods-min.jpg";
 // import imgstarwarsImg from "./assets/imgstarwars-min.jpg";
-import modernportfolioImg from "./assets/modernportfolio.png";
-import respireImg from "./assets/respire-min.jpg";
-import todolistReactImg from "./assets/todolist_in_react.png";
+// import modernportfolioImg from "./assets/modernportfolio.png";
+// import respireImg from "./assets/respire-min.jpg";
+// import todolistReactImg from "./assets/todolist_in_react.png";
 // import todolistVanillaImg from "./assets/todolist-vanillajs-min.png";
 // import todosImg from "./assets/todos-min.jpg";
 import accessformImg from "./assets/formvalidator-min.png";
-import cyimmoImg from "./assets/cyimmo-min.jpg";
+// import cyimmoImg from "./assets/cyimmo-min.jpg";
 import tableaubord67Img from "./assets/tableaubord67.png";
 import qanteenImg from "./assets/qanteen.png";
 import cartographyImg from "./assets/cartography.webp";
@@ -135,6 +135,8 @@ export const skills = [
   // },
 ];
 
+// Projets masqués le 29/10/2026 pour recentrer le portfolio sur le profil PO
+// (réversible : décommenter l'entrée et son import d'image).
 export const projects = [
   {
     id: nanoid(),
@@ -145,54 +147,54 @@ export const projects = [
     text: "Annuaire des festivals de metal en Europe, bilingue, en construction et livré par incréments. Rôle de Product Owner : Product Goal, backlog en epics et user stories, Definition of Done, 20+ décisions tracées en ADR, analyse de la concurrence. Développement assisté par IA (Claude Code) : je définis, découpe, arbitre et valide.",
     tags: ["Product Ownership", "Astro", "React", "Supabase", "Claude Code"],
   },
-  {
-    id: nanoid(),
-    img: cyimmoImg,
-    url: "https://cfy1010.github.io/CyPyImmo/",
-    github: "https://github.com/Cfy1010/CyPyImmo",
-    title: "CyPyImmo",
-    text: "Site immobilier, ancien projet d'apprentissage : Python, Django, PostgreSQL.",
-  },
-  {
-    id: nanoid(),
-    img: cysoundImg,
-    url: "https://cfy1010.github.io/CySounds/",
-    github: "https://github.com/Cfy1010/CySounds",
-    title: "CySounds",
-    text: "Site vitrine thématique musique : HTML/CSS/JS.",
-  },
-  {
-    id: nanoid(),
-    img: zazyImg,
-    url: "https://cfy1010.github.io/CyMusicPlayer/",
-    github: "https://github.com/Cfy1010/CyMusicPlayer",
-    title: "Zazy's Music Player",
-    text: "Lecteur audio custom : HTML/CSS/JS.",
-  },
-  {
-    id: nanoid(),
-    img: todolistReactImg,
-    url: "https://cfy1010.github.io/todolist-in-react/",
-    github: "https://github.com/Cfy1010/todolist-in-react",
-    title: "Todolist in React",
-    text: "Todo list : exercice React (composants, état, CRUD).",
-  },
-  {
-    id: nanoid(),
-    img: cysongImg,
-    url: "https://cfy1010.github.io/CyLyricsSearchApp/",
-    github: "https://github.com/Cfy1010/CyLyricsSearchApp",
-    title: "Lyrics Search App",
-    text: "Recherche de paroles via API : JS, Fetch, async/await.",
-  },
-  {
-    id: nanoid(),
-    img: cymoviesImg,
-    url: "https://cfy1010.github.io/CyMovies-2022/",
-    github: "https://github.com/Cfy1010/CyMovies-2022",
-    title: "CyMovies",
-    text: "App de films coups de cœur : React, API TMDB.",
-  },
+  // {
+  //   id: nanoid(),
+  //   img: cyimmoImg,
+  //   url: "https://cfy1010.github.io/CyPyImmo/",
+  //   github: "https://github.com/Cfy1010/CyPyImmo",
+  //   title: "CyPyImmo",
+  //   text: "Site immobilier, ancien projet d'apprentissage : Python, Django, PostgreSQL.",
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: cysoundImg,
+  //   url: "https://cfy1010.github.io/CySounds/",
+  //   github: "https://github.com/Cfy1010/CySounds",
+  //   title: "CySounds",
+  //   text: "Site vitrine thématique musique : HTML/CSS/JS.",
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: zazyImg,
+  //   url: "https://cfy1010.github.io/CyMusicPlayer/",
+  //   github: "https://github.com/Cfy1010/CyMusicPlayer",
+  //   title: "Zazy's Music Player",
+  //   text: "Lecteur audio custom : HTML/CSS/JS.",
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: todolistReactImg,
+  //   url: "https://cfy1010.github.io/todolist-in-react/",
+  //   github: "https://github.com/Cfy1010/todolist-in-react",
+  //   title: "Todolist in React",
+  //   text: "Todo list : exercice React (composants, état, CRUD).",
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: cysongImg,
+  //   url: "https://cfy1010.github.io/CyLyricsSearchApp/",
+  //   github: "https://github.com/Cfy1010/CyLyricsSearchApp",
+  //   title: "Lyrics Search App",
+  //   text: "Recherche de paroles via API : JS, Fetch, async/await.",
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: cymoviesImg,
+  //   url: "https://cfy1010.github.io/CyMovies-2022/",
+  //   github: "https://github.com/Cfy1010/CyMovies-2022",
+  //   title: "CyMovies",
+  //   text: "App de films coups de cœur : React, API TMDB.",
+  // },
   {
     id: nanoid(),
     img: accessformImg,
@@ -201,22 +203,22 @@ export const projects = [
     title: "CyAccessForm",
     text: "Formulaire accessible : exemples HTML5 accessibilité.",
   },
-  {
-    id: nanoid(),
-    img: respireImg,
-    url: "https://cfy1010.github.io/CyRelaxerApp/",
-    github: "https://github.com/Cfy1010/CyRelaxerApp",
-    title: "Relaxer App",
-    text: "Mini app de relaxation : CSS animation, JS timer.",
-  },
-  {
-    id: nanoid(),
-    img: modernportfolioImg,
-    url: "https://cfy1010.github.io/CyOldPortfolio/",
-    github: "https://github.com/Cfy1010/CyOldPortfolio",
-    title: "CyOldPortfolio",
-    text: "1er portfolio personnel : HTML/CSS/JS (2019).",
-  },
+  // {
+  //   id: nanoid(),
+  //   img: respireImg,
+  //   url: "https://cfy1010.github.io/CyRelaxerApp/",
+  //   github: "https://github.com/Cfy1010/CyRelaxerApp",
+  //   title: "Relaxer App",
+  //   text: "Mini app de relaxation : CSS animation, JS timer.",
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: modernportfolioImg,
+  //   url: "https://cfy1010.github.io/CyOldPortfolio/",
+  //   github: "https://github.com/Cfy1010/CyOldPortfolio",
+  //   title: "CyOldPortfolio",
+  //   text: "1er portfolio personnel : HTML/CSS/JS (2019).",
+  // },
 ];
 
 export const professionalProjects = [

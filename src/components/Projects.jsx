@@ -21,9 +21,9 @@ const Projects = () => {
         </div>
 
         <p className="text-emerald-700 text-xs font-semibold tracking-widest uppercase border-b border-emerald-800 pb-4 mb-6">
-          Projets personnels &amp; apprentissage
+          Projets personnels
         </p>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 gap-4">
           {projects.map((project) => (
             <ProjectsCard key={project.id} {...project} />
           ))}
