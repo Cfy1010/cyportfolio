@@ -4,7 +4,7 @@ Certifié PSPO I et PSM I, je vise un poste de **Product Owner**.
 Ce dépôt contient le code de mon portfolio.
 
 - **Site** : https://cfy1010.github.io/cyportfolio/
-- **O-Fests**, mon projet personnel où je tiens le rôle de Product Owner : https://ofests.com
+- **O-Fests**, mon projet personnel où je tiens le rôle (entre autres) de Product Owner : https://ofests.com
 - **LinkedIn** : https://www.linkedin.com/in/cyrilleallard/
 
 ---
@@ -39,13 +39,6 @@ ni donnée client.
 - React, JavaScript
 - Vite
 - Tailwind CSS
-
-## Lancer le projet en local
-
-    npm install
-    npm run dev
-
-Le site est servi sur [http://localhost:5173/cyportfolio/.](https://cfy1010.github.io/cyportfolio/)
 
 ---
 
