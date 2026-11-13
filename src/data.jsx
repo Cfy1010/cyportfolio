@@ -3,17 +3,15 @@ import {
   // FaAccessibleIcon,
   // FaAtlassian,
   // FaChartBar,
-  // FaCode,
+  FaClipboardList,
+  FaCode,
   // FaDev,
   FaFigma,
   // FaGit,
   // FaGithub,
-  FaHtml5,
-  FaJs,
   FaMapMarkerAlt,
   FaMobileAlt,
   // FaPhp,
-  FaReact,
   // FaRProject,
   FaToolbox,
   FaUsers,
@@ -34,11 +32,7 @@ import { FaDiagramProject } from "react-icons/fa6";
 // import todolistReactImg from "./assets/todolist_in_react.png";
 // import todolistVanillaImg from "./assets/todolist-vanillajs-min.png";
 // import todosImg from "./assets/todos-min.jpg";
-import accessformImg from "./assets/formvalidator-min.png";
 // import cyimmoImg from "./assets/cyimmo-min.jpg";
-import tableaubord67Img from "./assets/tableaubord67.png";
-import qanteenImg from "./assets/qanteen.png";
-import cartographyImg from "./assets/cartography.webp";
 import ofestsImg from "./assets/ofests-card.svg";
 
 export const links = [
@@ -53,7 +47,7 @@ export const skills = [
     id: nanoid(),
     title: "Gestion de produit & Méthodologies agiles",
     icon: <FaDiagramProject className="h-16 w-16 text-emerald-500" />,
-    text: `Cadrage fonctionnel dans des contextes métiers et réglementaires complexes : recueil des besoins, cahiers des charges, user stories et critères d'acceptation, découpage en lots.\nTravail en équipe Scrum, en sprints, jusqu'à la mise en production. Certifié PSPO I et PSM I.\nCollaboration étroite avec développeurs et parties prenantes pour aligner besoins utilisateurs, contraintes techniques et objectifs.`,
+    text: `Cadrage fonctionnel dans des contextes métiers et réglementaires complexes : recueil des besoins, cahiers des charges, user stories et critères d'acceptation, découpage en lots.\nTravail en équipe, en sprints, jusqu'à la mise en production. Certifié PSPO I et PSM I.\nCollaboration étroite avec développeurs et parties prenantes pour aligner besoins utilisateurs, contraintes techniques et objectifs.`,
   },
   {
     id: nanoid(),
@@ -70,30 +64,14 @@ export const skills = [
     title: "Qualité web & Accessibilité",
     icon: <FaToolbox className="h-16 w-16 text-emerald-500" />,
     text: `Intégration des bonnes pratiques de qualité web dès la conception : accessibilité, performance, robustesse et maintenabilité.
-    Application du référentiel OpQuast (certifié niveau avancé – score 885) dans une logique produit, en lien avec les enjeux utilisateurs et réglementaires.
+    Application du référentiel Opquast (certifié niveau avancé – score 885) dans une logique produit, en lien avec les enjeux utilisateurs et réglementaires.
     La qualité est abordée comme un levier de valeur produit, et non comme une contrainte.`,
   },
   {
     id: nanoid(),
-    title: "React & front-end moderne",
-    icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: `Développement d’interfaces front-end avec React dans une approche orientée produit et expérience utilisateur : composants réutilisables, gestion de l’état, formulaires, listes dynamiques et intégration d’API.
-    Attention portée aux performances, à l’accessibilité et à la qualité de l’expérience utilisateur dans des projets concrets.`,
-  },
-  {
-    id: nanoid(),
-    title: "JavaScript & logique applicative",
-    icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: `Développement de fonctionnalités web interactives avec une attention particulière portée à la logique métier, à la clarté des flux utilisateurs et à la maintenabilité du code.
-    Gestion des interactions (DOM, événements), appels asynchrones (Fetch, Promises, async/await) et structuration de fonctionnalités lisibles, évolutives et alignées avec les besoins produit.`,
-  },
-
-  {
-    id: nanoid(),
-    title: "HTML&CSS",
-    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: `Intégration HTML sémantique et CSS responsive pour des interfaces accessibles, performantes et cohérentes visuellement.
-    Attention portée à la lisibilité du code, à la compatibilité multi-supports et aux standards du web.`,
+    title: "Culture technique",
+    icon: <FaCode className="h-16 w-16 text-emerald-500" />,
+    text: `Développement front-end et back-end (React, JavaScript, HTML/CSS, PHP, SQL) : je lis, j'écris et je relis du code, ce qui facilite le dialogue avec les équipes de développement.`,
   },
 
   // {
@@ -144,7 +122,7 @@ export const projects = [
     url: "https://ofests.com",
     github: "https://github.com/Cfy1010/ofests",
     title: "O-Fests · projet personnel (2026)",
-    text: "Annuaire des festivals de metal en Europe, bilingue, en construction et livré par incréments. Rôle de Product Owner : Product Goal, backlog en epics et user stories, Definition of Done, 20+ décisions tracées en ADR, analyse de la concurrence. Développement assisté par IA (Claude Code) : je définis, découpe, arbitre et valide.",
+    text: "Annuaire des festivals de metal en Europe, bilingue, en construction et livré par incréments. Rôle de Product Owner : Product Goal, backlog en epics et user stories, Definition of Done, 30 décisions tracées en ADR, analyse de la concurrence. Développement assisté par IA (Claude Code) : je définis, découpe, arbitre et valide.",
     tags: ["Product Ownership", "Astro", "React", "Supabase", "Claude Code"],
   },
   // {
@@ -195,14 +173,6 @@ export const projects = [
   //   title: "CyMovies",
   //   text: "App de films coups de cœur : React, API TMDB.",
   // },
-  {
-    id: nanoid(),
-    img: accessformImg,
-    url: "https://cfy1010.github.io/CyAccessForm/",
-    github: "https://github.com/Cfy1010/CyAccessForm",
-    title: "CyAccessForm",
-    text: "Formulaire accessible : exemples HTML5 accessibilité.",
-  },
   // {
   //   id: nanoid(),
   //   img: respireImg,
@@ -224,7 +194,7 @@ export const projects = [
 export const professionalProjects = [
   {
     id: nanoid(),
-    img: tableaubord67Img,
+    img: null,
     date: "2020 – 2024",
     title: "NeoJob / NeoGestion / Insertion-Formation-Inclusion",
     subtitle: "SaaS B2B · Secteur public · 30+ départements clients",
@@ -235,23 +205,23 @@ export const professionalProjects = [
   },
   {
     id: nanoid(),
-    img: qanteenImg,
+    img: null,
     date: "2020 – 2024",
     title: "Qanteen",
     subtitle: "Application mobile · Restauration collective",
-    text: "Conception UX et co-développement full-stack : planning hebdomadaire, fiches recettes et allergènes, onboarding multiprofils, authentification SMS.",
-    tags: ["UX Design", "Adobe XD", "React", "PHP", "Auth SMS"],
+    text: "Conception des parcours et des maquettes d'une application mobile de restauration scolaire : repas, évaluation par les usagers, fiches recette avec allergènes et labels, compte famille.",
+    tags: ["UX Design", "Adobe XD", "Figma"],
     icon: <FaMobileAlt className="h-4 w-4 text-emerald-400" />,
     professional: true,
   },
   {
     id: nanoid(),
-    img: cartographyImg,
+    img: null,
     date: "2020 – 2024",
     title: "Cartographie interactive des offres",
     subtitle: "Offres d'emploi & d'insertion géolocalisées",
-    text: "Carte interactive des offres pour le CD17, avec filtres dynamiques, alimentée par les flux data du service interne : spécification et tests des comportements de recherche.",
-    tags: ["JavaScript", "React", "Leaflet", "API data"],
+    text: "Carte interactive des offres pour le CD17, construite à partir des demandes du client : spécification et tests des comportements de recherche.",
+    tags: ["Leaflet", "Spécification", "Tests"],
     icon: <FaMapMarkerAlt className="h-4 w-4 text-emerald-400" />,
     professional: true,
   },
@@ -264,6 +234,17 @@ export const professionalProjects = [
     text: "Déploiement d'un Design System partagé entre plusieurs équipes produit. Reprise et animation, comme Référent Qualité, du Comité Ergonomique sponsorisé par le CODIR. Audits Opquast (25 critères/plateforme).",
     tags: ["Figma", "Design System", "Opquast", "Accessibilité"],
     icon: <FaFigma className="h-4 w-4 text-emerald-400" />,
+    professional: true,
+  },
+  {
+    id: nanoid(),
+    img: null,
+    date: "2021 – 2022",
+    title: "Viviers",
+    subtitle: "Module conçu pour un département, pensé pour être proposé à tous les clients",
+    text: "Rédaction des user stories, des flux et des wireframes, puis revue de la fonctionnalité développée par l'équipe.",
+    tags: ["User Stories", "FigJam", "Figma", "Recette"],
+    icon: <FaClipboardList className="h-4 w-4 text-emerald-400" />,
     professional: true,
   },
 ];

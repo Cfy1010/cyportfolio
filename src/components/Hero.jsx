@@ -6,6 +6,7 @@ const tags = [
   "Opquast 885 / 1000",
   "HTML · CSS · React · PHP · SQL",
   "Figma · Azure DevOps · Jira",
+  "Développement assisté par IA",
 ];
 
 const Hero = () => {
@@ -42,7 +43,7 @@ const Hero = () => {
               </span>
             ))}
           </div>
-          <div className="flex gap-x-4 mt-6">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mt-6">
             <a href="https://github.com/Cfy1010" aria-label="GitHub">
               <FaGithubSquare className="h-8 w-8 text-emerald-400 hover:text-white duration-300" />
             </a>
@@ -52,6 +53,12 @@ const Hero = () => {
             >
               <FaLinkedin className="h-8 w-8 text-emerald-400 hover:text-white duration-300" />
             </a>
+            <a
+              href="https://ofests.com"
+              className="text-sm text-emerald-400 underline hover:text-white duration-300"
+            >
+              O-Fests · rôle de Product Owner sur un projet personnel
+            </a>
           </div>
         </article>
 
@@ -60,9 +67,7 @@ const Hero = () => {
             <FaThLarge className="h-6 w-6 text-emerald-400 mb-3" />
             <div className="text-3xl font-bold text-white">~4 ans</div>
             <div className="text-sm text-emerald-300 mt-1 leading-snug">
-              UX/UI, qualité web &amp; développement
-              <br />
-              Éditeur SaaS · clients publics
+              Berger-Levrault, éditeur SaaS · qualité, UX/UI &amp; développement
             </div>
           </div>
 

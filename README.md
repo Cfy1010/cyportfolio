@@ -19,7 +19,7 @@ J’interviens sur le cadrage fonctionnel, la conception centrée utilisateur,
 la priorisation par la valeur et le delivery de produits numériques utiles,
 accessibles et durables.
 
-Mon parcours est complété par plus de 12 ans d’expérience en management de la
+Mon parcours est complété par près de 12 ans d’expérience en management de la
 qualité (QSE), qui nourrit une approche exigeante et pragmatique du produit.
 
 ---
@@ -50,7 +50,7 @@ L’accessibilité et la qualité web sont intégrées dès la conception :
 
 - structure sémantique claire,
 - contrastes lisibles,
-- respect des bonnes pratiques OpQuast.
+- respect des bonnes pratiques Opquast.
 
 ---
 

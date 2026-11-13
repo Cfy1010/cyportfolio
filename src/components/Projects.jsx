@@ -12,22 +12,22 @@ const Projects = () => {
         <div className="w-10 h-1 bg-emerald-400 mb-10 rounded" />
 
         <p className="text-emerald-700 text-xs font-semibold tracking-widest uppercase border-b border-emerald-800 pb-4 mb-6">
-          Réalisations professionnelles · Berger-Levrault
+          Projets personnels
         </p>
         <div className="grid sm:grid-cols-2 gap-4 mb-12">
+          {projects.map((project) => (
+            <ProjectsCard key={project.id} {...project} />
+          ))}
+        </div>
+        <p className="text-emerald-700 text-xs font-semibold tracking-widest uppercase border-b border-emerald-800 pb-4 mb-6">
+          Réalisations professionnelles · Berger-Levrault
+        </p>
+        <div className="grid sm:grid-cols-2 gap-4">
           {professionalProjects.map((project) => (
             <ProjectsCard key={project.id} {...project} />
           ))}
         </div>
 
-        <p className="text-emerald-700 text-xs font-semibold tracking-widest uppercase border-b border-emerald-800 pb-4 mb-6">
-          Projets personnels
-        </p>
-        <div className="grid sm:grid-cols-2 gap-4">
-          {projects.map((project) => (
-            <ProjectsCard key={project.id} {...project} />
-          ))}
-        </div>
       </div>
     </section>
   );
