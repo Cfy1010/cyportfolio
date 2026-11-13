@@ -1,60 +1,65 @@
 # Portfolio – Cyrille Allard
 
-Portfolio personnel présentant mon positionnement et mes compétences en
-**produit digital, UX/UI et qualité web**.
+Certifié PSPO I et PSM I, je vise un poste de **Product Owner**.
+Ce dépôt contient le code de mon portfolio.
 
-Ce site a pour objectif de donner une vision claire de mon profil, de mon
-parcours et de mon approche produit, à travers :
-
-- une présentation synthétique de mon positionnement professionnel,
-- mes domaines d’expertise (produit, UX, qualité, front-end),
-- quelques réalisations et projets représentatifs.
+- **Site** : https://cfy1010.github.io/cyportfolio/
+- **O-Fests**, mon projet personnel où je tiens le rôle de Product Owner : https://ofests.com
+- **LinkedIn** : https://www.linkedin.com/in/cyrilleallard/
 
 ---
 
 ## Positionnement
 
-Certifié PSPO I et PSM I, je vise un poste de Product Owner, avec une forte culture UX et qualité web.  
-J’interviens sur le cadrage fonctionnel, la conception centrée utilisateur,
-la priorisation par la valeur et le delivery de produits numériques utiles,
-accessibles et durables.
+Cadrage fonctionnel, UX/UI et delivery agile, avec une forte culture de la qualité web.
 
-Mon parcours est complété par près de 12 ans d’expérience en management de la
-qualité (QSE), qui nourrit une approche exigeante et pragmatique du produit.
-
----
-
-## Contenu du portfolio
-
-- Hero & présentation du profil
-- Section compétences (produit, UX/UI, qualité web, front-end)
-- Projets et réalisations sélectionnés
-- Approche accessibilité et bonnes pratiques web
+- Presque 4 ans chez Berger-Levrault, éditeur de logiciels SaaS pour des départements
+  et des régions : refontes produit de l'analyse de l'existant jusqu'à la livraison,
+  avec la décision finale sur l'UX/UI.
+- Près de 12 ans en management de la qualité (QSE), dont une accréditation
+  COFRAC ISO 17020 construite de zéro.
+- Certifications : PSPO I (98,8 %), PSM I (92,5 %), Opquast Avancé (885/1000).
 
 ---
 
-## Technologies utilisées
+## Contenu du site
 
-- React
-- JavaScript
+- **Présentation** : profil, certifications, outils.
+- **Expertise Produit & UX** : gestion de produit, UX/UI, qualité web, culture technique.
+- **Mon Parcours** : repères chiffrés et résumé du parcours.
+- **Mes Réalisations** : O-Fests (projet personnel), puis réalisations professionnelles.
+
+Les réalisations professionnelles sont décrites en texte, sans capture d'écran
+ni donnée client.
+
+---
+
+## Technologies
+
+- React, JavaScript
+- Vite
 - Tailwind CSS
 
-Le code est volontairement simple et lisible, avec une attention portée à la
-sémantique HTML, à l’accessibilité et à la maintenabilité.
+## Lancer le projet en local
+
+    npm install
+    npm run dev
+
+Le site est servi sur [http://localhost:5173/cyportfolio/.](https://cfy1010.github.io/cyportfolio/)
 
 ---
 
 ## Accessibilité & qualité
 
-L’accessibilité et la qualité web sont intégrées dès la conception :
-
-- structure sémantique claire,
-- contrastes lisibles,
-- respect des bonnes pratiques Opquast.
+- Structure HTML sémantique.
+- Contrastes lisibles.
+- Bonnes pratiques Opquast appliquées dès la conception.
 
 ---
 
 ## Statut
+
+Portfolio en évolution continue.
 
 Portfolio en évolution continue, utilisé comme support de présentation
 professionnelle.
