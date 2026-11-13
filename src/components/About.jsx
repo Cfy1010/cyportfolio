@@ -1,5 +1,5 @@
 const stats = [
-  { value: "~4 ans", label: "UX/UI et qualité web chez un éditeur SaaS" },
+  { value: "~4 ans", label: "Berger-Levrault, éditeur SaaS · qualité, UX/UI & développement" },
   { value: "12 ans", label: "Management qualité dont COFRAC ISO 17020" },
   { value: "30+", label: "Départements clients servis" },
   { value: "885", label: "Score Opquast Niveau Avancé" },
@@ -80,7 +80,7 @@ const About = () => {
           <p>
             J'évolue naturellement dans des{" "}
             <strong className="text-white">équipes pluridisciplinaires</strong>{" "}
-            et j&apos;ai conçu des produits pour les{" "}
+            et j&apos;ai conçu des parcours et des interfaces pour des produits des{" "}
             <strong className="text-white">secteurs public et social</strong>,
             utilisés par 6 profils d&apos;usagers (allocataires RSA, recruteurs,
             conseillers, décideurs…). Aujourd&apos;hui, je pratique le rôle de
